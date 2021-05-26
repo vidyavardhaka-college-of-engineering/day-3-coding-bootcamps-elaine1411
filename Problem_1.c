@@ -9,15 +9,20 @@
 
 int main()
 {
-    int N;
-    printf("Enter the value for N\n");
-    scanf("%d", &N);
+   
 
     //Write your code here
-       
-       
-       
-       
-       
+    int N, i,sum=0;
+
+    printf("Enter the value for N\n");
+    scanf("%d", &N); 
+
+    for(i=1;i<=N;i++)
+    {
+      sum=sum+i;
+    }
+
+    printf("the sum of the first n natural numbers is:%d\n",sum);
+  
     return 0;
 }
